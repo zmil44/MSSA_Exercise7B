@@ -42,8 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssaultMission.cs" />
+    <Compile Include="BeltFed.cs" />
+    <Compile Include="DirectFire.cs" />
+    <Compile Include="LargeVehicle.cs" />
+    <Compile Include="MagFed.cs" />
+    <Compile Include="Mission.cs" />
+    <Compile Include="PatrolMission.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmallVehicle.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
